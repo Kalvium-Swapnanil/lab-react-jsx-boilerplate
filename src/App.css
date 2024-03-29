@@ -1,1 +1,15 @@
 /* add your styles here */
+.parent-div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    gap: 10px;
+    justify-items: center;
+}
+
+.parent-div > img{
+    height: 70vh
+}
+h1{
+    text-align: center;
+}
